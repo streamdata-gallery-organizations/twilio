@@ -23,7 +23,7 @@ paths:
       summary: Get Acount
       description: Get Account
       operationId: getAccount
-      x-api-path-slug: accountsaccountsidformat-get
+      x-api-path-slug: accountsaccountsid-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -42,7 +42,7 @@ paths:
       summary: Add Account
       description: Add Account
       operationId: addAccount
-      x-api-path-slug: accountsaccountsidformat-post
+      x-api-path-slug: accountsaccountsid-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -61,7 +61,7 @@ paths:
       summary: Update Account
       description: Update Account
       operationId: updateAccount
-      x-api-path-slug: accountsaccountsidformat-put
+      x-api-path-slug: accountsaccountsid-format-put
       parameters:
       - in: path
         name: AccountSid
@@ -81,7 +81,7 @@ paths:
       summary: Get Accounts
       description: Get Accounts
       operationId: getAccounts
-      x-api-path-slug: accountsformat-get
+      x-api-path-slug: accounts-format-get
       parameters:
       - in: formData
         name: AccountSid
@@ -99,7 +99,7 @@ paths:
       summary: Delete Application
       description: Delete Application
       operationId: delete-this-application
-      x-api-path-slug: accountsaccountsidapplicationsapplicationsidformat-delete
+      x-api-path-slug: accountsaccountsidapplicationsapplicationsid-format-delete
       parameters:
       - in: path
         name: AccountSid
@@ -121,7 +121,7 @@ paths:
       summary: Get Application
       description: Get application instance resource.
       operationId: get-application-instance-resource
-      x-api-path-slug: accountsaccountsidapplicationsapplicationsidformat-get
+      x-api-path-slug: accountsaccountsidapplicationsapplicationsid-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -145,7 +145,7 @@ paths:
         representation if successful. The returned response is identicalnto that returned
         above when making a GET request.n
       operationId: tries-to-update-the-applications-properties-and-returns-the-updatedresource-representation-if-succes
-      x-api-path-slug: accountsaccountsidapplicationsapplicationsidformat-post
+      x-api-path-slug: accountsaccountsidapplicationsapplicationsid-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -168,7 +168,7 @@ paths:
       summary: Get Applications
       description: Get Applications
       operationId: returns-a-list-of-application-resource-representations-each-representingan-application-within-your-a
-      x-api-path-slug: accountsaccountsidapplicationsformat-get
+      x-api-path-slug: accountsaccountsidapplications-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -187,7 +187,7 @@ paths:
       summary: Add Applications
       description: Add Applications
       operationId: creates-a-new-application-within-your-account
-      x-api-path-slug: accountsaccountsidapplicationsformat-post
+      x-api-path-slug: accountsaccountsidapplications-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -207,7 +207,7 @@ paths:
       summary: Get Authorized Connected App
       description: Get the properties of the authorized application.
       operationId: get-the-properties-of-the-authorized-application
-      x-api-path-slug: accountsaccountsidauthorizedconnectappsconnectappsidformat-get
+      x-api-path-slug: accountsaccountsidauthorizedconnectappsconnectappsid-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -233,7 +233,7 @@ paths:
         anConnect App youve authorized to access your account. The list includesnpaging
         information.n
       operationId: returns-a-list-of-connect-app-resource-representations-each-representing-aconnect-app-youve-authoriz
-      x-api-path-slug: accountsaccountsidauthorizedconnectappsformat-get
+      x-api-path-slug: accountsaccountsidauthorizedconnectapps-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -255,7 +255,7 @@ paths:
         match the specified filters, each representing a phone number thanis currently
         available for provisioning within your account.n
       operationId: returns-a-list-of-local-availablephonenumber-resource-representationsthat-match-the-specified-filter
-      x-api-path-slug: accountsaccountsidavailablephonenumbersisocountrycodelocalformat-get
+      x-api-path-slug: accountsaccountsidavailablephonenumbersisocountrycodelocal-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -280,7 +280,7 @@ paths:
         that match the specified filters, each representing a phone number that is
         currently available for provisioning within your account.
       operationId: returns-a-list-of-mobile-availablephonenumber-resource-representations-that-match-the-specified-filt
-      x-api-path-slug: accountsaccountsidavailablephonenumbersisocountrycodemobileformat-get
+      x-api-path-slug: accountsaccountsidavailablephonenumbersisocountrycodemobile-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -306,7 +306,7 @@ paths:
         for provisioning within your account. To provision an availablenphone number,
         POST the number to the IncomingPhoneNumbers resource.n
       operationId: returns-a-list-of-tollfree-availablephonenumber-elements-that-match-thespecified-filters-each-repres
-      x-api-path-slug: accountsaccountsidavailablephonenumbersisocountrycodetollfreeformat-get
+      x-api-path-slug: accountsaccountsidavailablephonenumbersisocountrycodetollfree-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -330,7 +330,7 @@ paths:
       description: Returns a list of Recording resource representations, each representing
         anrecording generated during the course of a phone call.n
       operationId: returns-a-list-of-recording-resource-representations-each-representing-arecording-generated-during-t
-      x-api-path-slug: accountsaccountsidcallscallsidrecordingsformat-get
+      x-api-path-slug: accountsaccountsidcallscallsidrecordings-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -353,7 +353,7 @@ paths:
       summary: Get Call
       description: Get Call
       operationId: getCall
-      x-api-path-slug: accountsaccountsidcallscallsidformat-get
+      x-api-path-slug: accountsaccountsidcallscallsid-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -376,7 +376,7 @@ paths:
       summary: Get Calls
       description: Get Calls
       operationId: getCalls
-      x-api-path-slug: accountsaccountsidcallsformat-get
+      x-api-path-slug: accountsaccountsidcalls-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -396,7 +396,7 @@ paths:
       description: To make a call, make an HTTP POST request. Initiate a new phone
         call.
       operationId: to-make-a-call-make-an-http-post-request-initiate-a-new-phone-call
-      x-api-path-slug: accountsaccountsidcallsformat-post
+      x-api-path-slug: accountsaccountsidcalls-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -416,7 +416,7 @@ paths:
       summary: Delete Conference Call Participants
       description: Kick this participant from the conference.
       operationId: kick-this-participant-from-the-conference
-      x-api-path-slug: accountsaccountsidconferencesconferencesidparticipantscallsidformat-delete
+      x-api-path-slug: accountsaccountsidconferencesconferencesidparticipantscallsid-format-delete
       parameters:
       - in: path
         name: AccountSid
@@ -442,7 +442,7 @@ paths:
       summary: Add Conference Call Participants
       description: Updates the status of a participant.
       operationId: updates-the-status-of-a-participant
-      x-api-path-slug: accountsaccountsidconferencesconferencesidparticipantscallsidformat-post
+      x-api-path-slug: accountsaccountsidconferencesconferencesidparticipantscallsid-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -468,7 +468,7 @@ paths:
       summary: GetParticipantForConference
       description: GetParticipantForConference
       operationId: getparticipantforconference
-      x-api-path-slug: accountsaccountsidconferencesconferencesidparticipantscallsidformat-get
+      x-api-path-slug: accountsaccountsidconferencesconferencesidparticipantscallsid-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -493,7 +493,7 @@ paths:
       summary: Get Conference Call Participants
       description: Returns the list of participants in the conference identified byn{ConferenceSid}.n
       operationId: returns-the-list-of-participants-in-the-conference-identified-byconferencesid
-      x-api-path-slug: accountsaccountsidconferencesconferencesidparticipantsformat-get
+      x-api-path-slug: accountsaccountsidconferencesconferencesidparticipants-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -518,7 +518,7 @@ paths:
       description: Returns a list of conferences within an account. The list includes
         pagingninformation.n
       operationId: returns-a-list-of-conferences-within-an-account-the-list-includes-paginginformation
-      x-api-path-slug: accountsaccountsidconferencesformat-get
+      x-api-path-slug: accountsaccountsidconferences-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -538,7 +538,7 @@ paths:
       summary: Get Conference
       description: Get Conference
       operationId: getConference
-      x-api-path-slug: accountsaccountsidconferencesconferencesidformat-get
+      x-api-path-slug: accountsaccountsidconferencesconferencesid-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -560,7 +560,7 @@ paths:
       summary: Get Connected App
       description: Get the properties of a Connect App.
       operationId: get-the-properties-of-a-connect-app
-      x-api-path-slug: accountsaccountsidconnectappsconnectappsidformat-get
+      x-api-path-slug: accountsaccountsidconnectappsconnectappsid-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -585,7 +585,7 @@ paths:
         representation if successful. The returned response is identicalnto that returned
         above when making a GET request.n
       operationId: tries-to-update-the-connect-apps-properties-and-returns-the-updatedresource-representation-if-succes
-      x-api-path-slug: accountsaccountsidconnectappsconnectappsidformat-post
+      x-api-path-slug: accountsaccountsidconnectappsconnectappsid-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -610,7 +610,7 @@ paths:
       description: Returns a list of Connect App resource representations, each representingna
         Connect App in your account. The list includes paging information.n
       operationId: returns-a-list-of-connect-app-resource-representations-each-representinga-connect-app-in-your-accoun
-      x-api-path-slug: accountsaccountsidconnectappsformat-get
+      x-api-path-slug: accountsaccountsidconnectapps-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -633,7 +633,7 @@ paths:
         list element that includes paging information. Works exactly the same as the
         IncomingPhoneNumber resource, but filters out toll-free numbers.
       operationId: returns-a-list-of-local-incomingphonenumber-elements-each-representing-a-local-not-tollfree-phone-nu
-      x-api-path-slug: accountsaccountsidincomingphonenumberslocalformat-get
+      x-api-path-slug: accountsaccountsidincomingphonenumberslocal-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -654,7 +654,7 @@ paths:
         for your request, Twilio will add it to your account and bill you for the
         first months cost of the phone number.
       operationId: adds-a-new-phone-number-to-your-account-if-a-phone-number-is-found-for-your-request-twilio-will-add-
-      x-api-path-slug: accountsaccountsidincomingphonenumberslocalformat-post
+      x-api-path-slug: accountsaccountsidincomingphonenumberslocal-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -677,7 +677,7 @@ paths:
         list element that includes paging information. Works exactly the same as the
         IncomingPhoneNumber resource, but filters out local and toll free numbers.
       operationId: returns-a-list-of-local-incomingphonenumber-elements-each-representing-a-mobile-phone-number-given-t
-      x-api-path-slug: accountsaccountsidincomingphonenumbersmobileformat-get
+      x-api-path-slug: accountsaccountsidincomingphonenumbersmobile-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -701,7 +701,7 @@ paths:
         another customer, so use with care. If you make a mistake, contacnus. We may
         be able to give you the number back.n
       operationId: release-this-phone-number-from-your-account-twilio-will-no-longer-answercalls-to-this-number-and-you
-      x-api-path-slug: accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-delete
+      x-api-path-slug: accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-delete
       parameters:
       - in: path
         name: AccountSid
@@ -724,7 +724,7 @@ paths:
       summary: Get Incoming Phone Number
       description: Get info about incoming calls phone number.
       operationId: get-info-about-incoming-calls-phone-number
-      x-api-path-slug: accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-get
+      x-api-path-slug: accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -749,7 +749,7 @@ paths:
         thenupdated resource representation if successful. The returned response isnidentical
         to that returned above when making a GET request.n
       operationId: tries-to-update-the-incoming-phone-numbers-properties-and-returns-theupdated-resource-representation
-      x-api-path-slug: accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-post
+      x-api-path-slug: accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -774,7 +774,7 @@ paths:
         thenupdated resource representation if successful. The returned response isnidentical
         to that returned above when making a GET request.n
       operationId: tries-to-update-the-incoming-phone-numbers-properties-and-returns-theupdated-resource-representation
-      x-api-path-slug: accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-put
+      x-api-path-slug: accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-put
       parameters:
       - in: path
         name: AccountSid
@@ -857,7 +857,7 @@ paths:
       description: Returns a list of messages associated with your account. The list
         includes paging information.
       operationId: returns-a-list-of-messages-associated-with-your-account-the-list-includes-paging-information
-      x-api-path-slug: accountsaccountsidmessagesformat-get
+      x-api-path-slug: accountsaccountsidmessages-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -877,7 +877,7 @@ paths:
       description: To send a new outgoing message, make an HTTP POST to your Messages
         list resource URI
       operationId: to-send-a-new-outgoing-message-make-an-http-post-to-your-messages-list-resource-uri
-      x-api-path-slug: accountsaccountsidmessagesformat-post
+      x-api-path-slug: accountsaccountsidmessages-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -1915,7 +1915,7 @@ paths:
       summary: GetSMSList
       description: GetSMSList
       operationId: getsmslist
-      x-api-path-slug: accountsaccountsidsmsmessagesformat-get
+      x-api-path-slug: accountsaccountsidsmsmessages-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -1932,7 +1932,7 @@ paths:
       summary: SendSMS
       description: SendSMS
       operationId: sendsms
-      x-api-path-slug: accountsaccountsidsmsmessagesformat-post
+      x-api-path-slug: accountsaccountsidsmsmessages-format-post
       parameters:
       - in: path
         name: AccountSid
@@ -1950,7 +1950,7 @@ paths:
       summary: GetSMS
       description: GetSMS
       operationId: getsms
-      x-api-path-slug: accountsaccountsidsmsmessagessmsmessagesidformat-get
+      x-api-path-slug: accountsaccountsidsmsmessagessmsmessagesid-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -2026,7 +2026,7 @@ paths:
       summary: GetTranscriptionList
       description: GetTranscriptionList
       operationId: gettranscriptionlist
-      x-api-path-slug: accountsaccountsidtranscriptionsformat-get
+      x-api-path-slug: accountsaccountsidtranscriptions-format-get
       parameters:
       - in: path
         name: AccountSid
@@ -2044,7 +2044,7 @@ paths:
       summary: GetTranscription
       description: GetTranscription
       operationId: gettranscription
-      x-api-path-slug: accountsaccountsidtranscriptionstranscriptionsidformat-get
+      x-api-path-slug: accountsaccountsidtranscriptionstranscriptionsid-format-get
       parameters:
       - in: path
         name: AccountSid

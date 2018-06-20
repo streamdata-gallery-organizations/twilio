@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio
 x-kinRank: "10"
 x-alexaRank: "9195"
 tags: Twilio
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-19"
+modified: "2018-06-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,9 +21,9 @@ apis:
   tags: Accounts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsid-format-get-openapi.md
 - name: Twilio Add Account
   x-api-slug: twilio
   description: Add Account
@@ -33,9 +33,9 @@ apis:
   tags: Accounts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsid-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsid-format-post-openapi.md
 - name: Twilio Update Account
   x-api-slug: twilio
   description: Update Account
@@ -45,9 +45,9 @@ apis:
   tags: Accounts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidformat-put-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsid-format-put-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsid-format-put-openapi.md
 - name: Twilio Get Accounts
   x-api-slug: twilio
   description: Get Accounts
@@ -57,9 +57,9 @@ apis:
   tags: Accounts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accounts-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accounts-format-get-openapi.md
 - name: Twilio Delete Application
   x-api-slug: twilio
   description: Delete Application
@@ -69,9 +69,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsidformat-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsid-format-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsidformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsid-format-delete-openapi.md
 - name: Twilio Get Application
   x-api-slug: twilio
   description: Get application instance resource.
@@ -81,9 +81,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsid-format-get-openapi.md
 - name: Twilio Add Application
   x-api-slug: twilio
   description: Tries to update the applications properties, and returns the updatednresource
@@ -95,9 +95,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsidformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsid-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsidformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsapplicationsid-format-post-openapi.md
 - name: Twilio Get Applications
   x-api-slug: twilio
   description: Get Applications
@@ -107,9 +107,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplications-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplications-format-get-openapi.md
 - name: Twilio Add Applications
   x-api-slug: twilio
   description: Add Applications
@@ -119,9 +119,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplications-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplicationsformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidapplications-format-post-openapi.md
 - name: Twilio Get Authorized Connected App
   x-api-slug: twilio
   description: Get the properties of the authorized application.
@@ -131,9 +131,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidauthorizedconnectappsconnectappsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidauthorizedconnectappsconnectappsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidauthorizedconnectappsconnectappsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidauthorizedconnectappsconnectappsid-format-get-openapi.md
 - name: Twilio Get Authorized Connected Apps
   x-api-slug: twilio
   description: Returns a list of Connect App resource representations, each representing
@@ -145,9 +145,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidauthorizedconnectappsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidauthorizedconnectapps-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidauthorizedconnectappsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidauthorizedconnectapps-format-get-openapi.md
 - name: Twilio Get Available Local Phone Numbers
   x-api-slug: twilio
   description: Returns a list of local AvailablePhoneNumber resource representationsnthat
@@ -159,9 +159,9 @@ apis:
   tags: Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodelocalformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodelocal-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodelocalformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodelocal-format-get-openapi.md
 - name: Twilio Get Available Mobile Phone Numbers
   x-api-slug: twilio
   description: Returns a list of mobile AvailablePhoneNumber resource representations
@@ -173,9 +173,9 @@ apis:
   tags: Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodemobileformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodemobile-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodemobileformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodemobile-format-get-openapi.md
 - name: Twilio Get Available Toll Free Phone Numbers
   x-api-slug: twilio
   description: Returns a list of toll-free AvailablePhoneNumber elements that match
@@ -188,9 +188,9 @@ apis:
   tags: Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodetollfreeformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodetollfree-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodetollfreeformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodetollfree-format-get-openapi.md
 - name: Twilio Get Recordings
   x-api-slug: twilio
   description: Returns a list of Recording resource representations, each representing
@@ -201,9 +201,9 @@ apis:
   tags: Recordings
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallscallsidrecordingsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallscallsidrecordings-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallscallsidrecordingsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallscallsidrecordings-format-get-openapi.md
 - name: Twilio Get Call
   x-api-slug: twilio
   description: Get Call
@@ -213,9 +213,9 @@ apis:
   tags: Calls
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallscallsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallscallsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallscallsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallscallsid-format-get-openapi.md
 - name: Twilio Get Calls
   x-api-slug: twilio
   description: Get Calls
@@ -225,9 +225,9 @@ apis:
   tags: Calls
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcalls-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcalls-format-get-openapi.md
 - name: Twilio Make Call
   x-api-slug: twilio
   description: To make a call, make an HTTP POST request. Initiate a new phone call.
@@ -237,9 +237,9 @@ apis:
   tags: Calls
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallsformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcalls-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcallsformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidcalls-format-post-openapi.md
 - name: Twilio Delete Conference Call Participants
   x-api-slug: twilio
   description: Kick this participant from the conference.
@@ -249,9 +249,9 @@ apis:
   tags: Conference Calls
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsidformat-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsid-format-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsidformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsid-format-delete-openapi.md
 - name: Twilio Add Conference Call Participants
   x-api-slug: twilio
   description: Updates the status of a participant.
@@ -261,9 +261,9 @@ apis:
   tags: Conference Calls
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsidformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsid-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsidformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsid-format-post-openapi.md
 - name: Twilio Get Conference Call Participants
   x-api-slug: twilio
   description: Returns the list of participants in the conference identified byn{ConferenceSid}.n
@@ -273,9 +273,9 @@ apis:
   tags: Conference Calls
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipants-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipants-format-get-openapi.md
 - name: Twilio Get Conference Calls
   x-api-slug: twilio
   description: Returns a list of conferences within an account. The list includes
@@ -286,9 +286,9 @@ apis:
   tags: Conference Calls
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferences-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferences-format-get-openapi.md
 - name: Twilio Get Conference
   x-api-slug: twilio
   description: Get Conference
@@ -298,9 +298,9 @@ apis:
   tags: Conferences
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesid-format-get-openapi.md
 - name: Twilio GetParticipantForConference
   x-api-slug: twilio
   description: GetParticipantForConference
@@ -310,9 +310,9 @@ apis:
   tags: Conferences
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconferencesconferencesidparticipantscallsid-format-get-openapi.md
 - name: Twilio Get Connected App
   x-api-slug: twilio
   description: Get the properties of a Connect App.
@@ -322,9 +322,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsconnectappsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsconnectappsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsconnectappsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsconnectappsid-format-get-openapi.md
 - name: Twilio Add Connected App
   x-api-slug: twilio
   description: Tries to update the Connect Apps properties, and returns the updatednresource
@@ -336,9 +336,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsconnectappsidformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsconnectappsid-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsconnectappsidformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsconnectappsid-format-post-openapi.md
 - name: Twilio Get Connected Apps
   x-api-slug: twilio
   description: Returns a list of Connect App resource representations, each representingna
@@ -349,9 +349,9 @@ apis:
   tags: Applications
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectapps-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectappsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidconnectapps-format-get-openapi.md
 - name: Twilio Get Incoming Local Phone Numbers
   x-api-slug: twilio
   description: Returns a list of local <IncomingPhoneNumber> elements, each representing
@@ -364,9 +364,9 @@ apis:
   tags: Incoming Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumberslocalformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumberslocal-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumberslocalformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumberslocal-format-get-openapi.md
 - name: Twilio Add Incoming Local Phone Numbers
   x-api-slug: twilio
   description: Adds a new phone number to your account. If a phone number is found
@@ -378,9 +378,9 @@ apis:
   tags: Incoming Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumberslocalformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumberslocal-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumberslocalformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumberslocal-format-post-openapi.md
 - name: Twilio Get Incoming Phone Numbers
   x-api-slug: twilio
   description: Returns a list of local <IncomingPhoneNumber> elements, each representing
@@ -393,9 +393,9 @@ apis:
   tags: Incoming Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersmobileformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersmobile-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersmobileformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersmobile-format-get-openapi.md
 - name: Twilio Delete Incoming Phone Number
   x-api-slug: twilio
   description: Release this phone number from your account. Twilio will no longer
@@ -409,9 +409,9 @@ apis:
   tags: Incoming Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-delete-openapi.md
 - name: Twilio Get Incoming Phone Number
   x-api-slug: twilio
   description: Get info about incoming calls phone number.
@@ -421,9 +421,9 @@ apis:
   tags: Incoming Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-get-openapi.md
 - name: Twilio Add Incoming Phone Number
   x-api-slug: twilio
   description: Tries to update the incoming phone numbers properties, and returns
@@ -435,9 +435,9 @@ apis:
   tags: Incoming Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-post-openapi.md
 - name: Twilio Update Incoming Phone Number
   x-api-slug: twilio
   description: Tries to update the incoming phone numbers properties, and returns
@@ -449,9 +449,9 @@ apis:
   tags: Incoming Phone Numbers
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-put-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-put-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersidformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidincomingphonenumbersincomingphonenumbersid-format-put-openapi.md
 - name: Twilio Get Message Media
   x-api-slug: twilio
   description: Without an extension, the media is returned using the mime-type provided
@@ -499,9 +499,9 @@ apis:
   tags: Messages
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidmessagesformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidmessages-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidmessagesformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidmessages-format-get-openapi.md
 - name: Twilio Add Message
   x-api-slug: twilio
   description: To send a new outgoing message, make an HTTP POST to your Messages
@@ -512,9 +512,9 @@ apis:
   tags: Messages
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidmessagesformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidmessages-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidmessagesformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidmessages-format-post-openapi.md
 - name: Twilio Get Outgoing Caller Ids
   x-api-slug: twilio
   description: Get the set of an accounts verified phone numbers.
@@ -1220,9 +1220,9 @@ apis:
   tags: SMS Messages
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessagesformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessages-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessagesformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessages-format-get-openapi.md
 - name: Twilio SendSMS
   x-api-slug: twilio
   description: SendSMS
@@ -1232,9 +1232,9 @@ apis:
   tags: SMS Messages
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessagesformat-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessages-format-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessagesformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessages-format-post-openapi.md
 - name: Twilio GetSMS
   x-api-slug: twilio
   description: GetSMS
@@ -1244,9 +1244,9 @@ apis:
   tags: SMS Messages
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessagessmsmessagesidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessagessmsmessagesid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessagessmsmessagesidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidsmsmessagessmsmessagesid-format-get-openapi.md
 - name: Twilio Delete Transcription
   x-api-slug: twilio
   description: Deletes a transcription from your account.
@@ -1296,9 +1296,9 @@ apis:
   tags: Transcriptions
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidtranscriptionsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidtranscriptions-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidtranscriptionsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidtranscriptions-format-get-openapi.md
 - name: Twilio GetTranscription
   x-api-slug: twilio
   description: GetTranscription
@@ -1308,9 +1308,9 @@ apis:
   tags: Transcriptions
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidtranscriptionstranscriptionsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidtranscriptionstranscriptionsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidtranscriptionstranscriptionsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/accountsaccountsidtranscriptionstranscriptionsid-format-get-openapi.md
 - name: Twilio Get Account Usage Record Sub Resource
   x-api-slug: twilio
   description: Returns UsageRecords for all usage categories for a specified period.n
@@ -1416,7 +1416,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/twilio/master/_listings/twilio/openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://www.twilio.com/docs/csharp/install
 - type: x-acceptable-use-policy
   url: https://www.twilio.com/legal/aup
@@ -1456,7 +1456,7 @@ x-common:
   url: https://www.twilio.com/docs/howto
 - type: x-java-library
   url: https://www.twilio.com/docs/java/install
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://www.twilio.com/docs/node/install
 - type: x-paid-support
   url: https://www.twilio.com/premium-support#features
@@ -1496,6 +1496,10 @@ x-common:
   url: https://twitter.com/twilio
 - type: x-website
   url: http://www.twilio.com
+- type: x-website
+  url: http://twilio.com
+- type: x-website
+  url: http://stackoverflow.com
 include: []
 maintainers:
 - FN: Kin Lane
